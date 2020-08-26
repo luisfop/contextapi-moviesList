@@ -2,9 +2,12 @@ import React from 'react'
 
 
 
-const Movie = ({name}) => {
+const Movie = ({name,price,key}) => {
     return(
-        <h3>{name}</h3>
+        <div>
+            <h3>{name}</h3>
+            <h5>{price}</h5>
+        </div>
     )
 }
 
