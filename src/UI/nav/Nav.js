@@ -9,8 +9,8 @@ const Nav = () => {
 
     return(
         <div className="Nav">
-            <h3>Luis Developer</h3>
-            <p>List of Movies: {movies.length}  </p>
+            <h3>Dev Luis</h3>
+            <p>List of Movies: {movies.length} </p>
         </div>
     )
 }

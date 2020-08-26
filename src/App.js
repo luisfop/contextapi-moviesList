@@ -3,6 +3,8 @@ import "./App.css";
 
 import MovieList from "./components/movieList/MovieList";
 import Nav from "./UI/nav/Nav";
+import AddMovie from './components/addMovie/AddMovie';
+
 import { MovieProvider } from "./components/movieListContext/MovieContext";
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <MovieProvider>
       <div className="App">
         <Nav />
+        <AddMovie/>
         <MovieList />
       </div>
     </MovieProvider>
